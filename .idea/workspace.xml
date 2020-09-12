@@ -11,19 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="321e0cd4-ef0d-4b78-b150-ac680a3e8360" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Modules/Product/Resources/views/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Product/Resources/views/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules_statuses.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules_statuses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Product/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -172,7 +169,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599890542009</updated>
-      <workItem from="1599890545472" duration="24807000" />
+      <workItem from="1599890545472" duration="26678000" />
+      <workItem from="1599920650632" duration="2330000" />
     </task>
     <servers />
   </component>
@@ -189,6 +187,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="265" width="586" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599906112974">

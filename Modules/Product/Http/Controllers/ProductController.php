@@ -5,6 +5,8 @@ namespace Modules\Product\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Redis;
 use Modules\Product\Entities\Product;
 use Modules\Product\Http\Requests\ProductRequest;
 
@@ -14,9 +16,17 @@ class ProductController extends Controller
      * Display a listing of the resource.
      * @return Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
+        $page = $request->page?? '';
+        $key = 'products'.strval($page);
+        if (Cache::has($key)){
+            $products = Cache::get($key);
+            return view('product::index', ['products' => $products]);
+        }
         $products = Product::paginate(10);
+
+        Cache::put($key, $products, now()->addMinutes(1));
         return view('product::index', ['products' => $products]);
     }
 
@@ -68,6 +78,7 @@ class ProductController extends Controller
     public function update(ProductRequest $request, Product $product)
     {
         $product->update($request->toArray());
+
         return redirect('product');
     }
 
