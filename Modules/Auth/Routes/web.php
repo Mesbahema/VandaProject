@@ -18,5 +18,9 @@ Route::prefix('auth')->group(function() {
     Route::post('/logout', 'LoginController@logout')->name('logout');
     Route::get('/register', 'RegisterController@showRegistrationForm')->name('register');
     Route::post('/register', 'RegisterController@register')->name('register');
+    Route::post('/password/email', 'ForgotPasswordController@sendResetLinkEmail')->name('password.email');
+    Route::get('/password/reset', 'ForgotPasswordController@showLinkRequestForm')->name('password.request');
+    Route::post('/password/reset', 'ResetPasswordController@reset')->name('password.update');
+    Route::get('/password/reset/{token}', 'ResetPasswordController@showResetForm')->name('password.reset');
 });
 //Auth::routes();

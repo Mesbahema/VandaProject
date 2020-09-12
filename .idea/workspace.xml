@@ -11,20 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="321e0cd4-ef0d-4b78-b150-ac680a3e8360" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VandaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VandaProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/AuthController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Auth/Resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Auth/Database/Migrations/2020_09_12_063824_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Auth/Database/Migrations/2020_09_12_063824_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/ResetPasswordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Auth/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Auth/Routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599890542009</updated>
-      <workItem from="1599890545472" duration="13043000" />
+      <workItem from="1599890545472" duration="14486000" />
     </task>
     <servers />
   </component>
@@ -207,10 +198,10 @@
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="489" y="212" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1368.873@72.27.1368.873" timestamp="1599903332638" />
-    <state x="614" y="231" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599902235877">
+    <state x="614" y="231" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599905155021">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="614" y="231" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1368.873@72.27.1368.873" timestamp="1599902235877" />
+    <state x="614" y="231" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1368.873@72.27.1368.873" timestamp="1599905155021" />
     <state x="539" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599900206508">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
