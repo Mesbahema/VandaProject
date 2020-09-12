@@ -11,11 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="321e0cd4-ef0d-4b78-b150-ac680a3e8360" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Modules/Product/Resources/views/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Product/Resources/views/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Auth/Database/Migrations/2020_09_12_063824_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Auth/Database/Migrations/2020_09_12_063824_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Auth/Http/Controllers/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Auth/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Auth/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules_statuses.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules_statuses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599890542009</updated>
-      <workItem from="1599890545472" duration="14486000" />
+      <workItem from="1599890545472" duration="24807000" />
     </task>
     <servers />
   </component>
@@ -190,10 +191,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="265" width="586" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599895463774">
+    <state x="458" y="265" width="586" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599906112974">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="458" y="265" width="586" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1368.873@72.27.1368.873" timestamp="1599895463774" />
+    <state x="458" y="265" width="586" height="410" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1368.873@72.27.1368.873" timestamp="1599906112974" />
     <state x="489" y="212" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599903332638">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
